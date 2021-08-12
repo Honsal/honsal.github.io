@@ -49,4 +49,16 @@
     <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
     <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
   {% endif %}
+
+  <script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() { 
+      $("a[href^=http]").each(function(){ 
+        if(this.href.indexOf(location.hostname) == -1) { 
+          $(this).attr({ target: "_blank" });
+        } 
+      })
+    });
+  </script>
 </head>
