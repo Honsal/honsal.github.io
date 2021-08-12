@@ -2,18 +2,19 @@
 bg: "owl.jpg"
 layout: page
 title: "About"
-crawlertitle: "Why and how this blog was created"
+crawlertitle: "혼살"
 permalink: /about/
-summary: "About this blog"
+summary: "About"
 active: about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+### 혼살
 
-You can find the source code for the Jekyll new theme at:
-{{site.twitter_username}} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+#### 경력
 
-You can find the source code for Jekyll at
-{{site.github_username}} /
-[jekyll](https://github.com/jekyll/jekyll)
+2015. 지오멕스소프트 입사
+2016. 프리랜서
+
+#### 소개
+
+반갑습니다. 혼살입니다. 2012년부터 운영된 게리모드의 좀비 서바이벌 서버 오너였으며, 현재는 프리랜서 프로그래머 생활을 하고 있습니다. 잘 부탁드립니다.
