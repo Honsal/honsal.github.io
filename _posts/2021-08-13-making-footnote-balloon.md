@@ -162,6 +162,6 @@ JS도 CSS도 별로 복잡하지 않기 때문에 어떤 테마에서든지 간�
 
 이제 슬슬 위에서 언급한 문제를 해결해야겠네요. 뷰포트를 넘어갈 때 뷰포트 안에 항상 머물게 만들어야겠습니다.
 
-[^1]: 현재 블로거
+[^1]: 현재 [블로거](https://www.blogger.com/)
 
 [^2]: \<script type="text/javascript" src="{{ site.baseurl }}/assets/js/footnote-balloon.js">\</script\>
