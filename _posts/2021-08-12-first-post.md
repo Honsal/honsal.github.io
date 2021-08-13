@@ -7,6 +7,7 @@ categories: "Dailylife"
 tags: ["Dailylife"]
 summary: 기구한 인생
 author: Honsal
+comments: true
 ---
 
 [블로그스팟 블로그](//honsal.blogspot.com)에서 이주했습니다.

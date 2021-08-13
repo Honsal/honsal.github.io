@@ -40,3 +40,5 @@ sass:
 
 
 images: '/assets/images'
+
+disqus_shortname: honsal.github.io
