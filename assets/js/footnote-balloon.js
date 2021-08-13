@@ -31,6 +31,13 @@ $(document).ready(function() {
 
                 $('body').append(dialogFootnote);
 
+                let right = offset.left + dialogFootnote.outerWidth();
+
+                let viewportWidth = document.documentElement.clientWidth || window.innerWidth;
+
+                if (right > viewportWidth)
+                    offset.left = Math.max(0, offset.left - (offset.left + dialogFootnote.outerWidth() - viewportWidth));
+
                 dialogFootnote.offset({left: offset.left, top: offset.top + fn.height()});
 
                 dialogFootnote.fadeIn(DURATION_FADE);

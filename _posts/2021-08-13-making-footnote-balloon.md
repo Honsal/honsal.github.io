@@ -4,8 +4,8 @@ layout: post
 title: "지킬용 말풍선 각주 플러그인 제작"
 crawlertitle: "Jekyll용 footote balloon 제작"
 date: 2021-08-13 11:02:37 +09:00
-categories: "Dailylife"
-tags: ["Dailylife"]
+categories: "Blogging"
+tags: ["Blogging", "Javascript", "Development"]
 summary: 나무위키?
 author: Honsal
 comments: true
@@ -139,7 +139,7 @@ div.fn {
 }
 ```
 
-초 간단 SCSS입니다. 둥근 반투명 검은색 말풍선과 흰색 글자를 표시합니다. line-height는 1.5em으로 정했습니다. 이게 가장 보기 좋더라고요.
+초 간단 SCSS입니다. 모서리가 둥근 반투명 검은색 말풍선과 흰색 글자를 표시합니다. line-height는 1.5em으로 정했습니다. 이게 가장 보기 좋더라고요.
 
 ### 적용 (Voyager)
 
