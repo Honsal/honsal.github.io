@@ -41,4 +41,7 @@ sass:
 
 images: '/assets/images'
 
-disqus_shortname: honsal.github.io
+disqus_shortname: honsal-github-io
+
+comments:
+  provider: disqus
