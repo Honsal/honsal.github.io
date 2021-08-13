@@ -22,4 +22,5 @@ active: about
 #### 연락처
 
 EMAIL: honjasalayo@gmail.com
+
 DISCORD: Honsal#0269
