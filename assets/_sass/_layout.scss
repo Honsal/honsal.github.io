@@ -1,14 +1,57 @@
+$link_color: #fb8e32;
+$link_color_active: #ffd46f;
+$link_color_hover: #fdbb26;
+
 /*
 * Links
 * ========================================================================== */
 a {
-  color: #333;
-  &:hover,
-  &:focus,
-  &:active { text-decoration: none; }
+  text-decoration: none;
+
+  color: $link_color;
+
+  &:visited,
+  &:focus {
+    color: $link_color;
+  }
+
+  &:active {
+    color: $link_color_active;
+  }
+
+  &:hover {
+    color: $link_color_hover;
+  }
+
+  &:hover, 
+  &:active {
+    text-decoration: underline;
+  }
+
+  &.footnote {
+    &:before {
+      content: "[";
+    }
+
+    &:after {
+      content: "]";
+    }
+  }
+
+  &.external {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 8px;
+    height: 24px;
+    background: url(/assets/images/foreign.png) right center no-repeat;
+  }
+
+  &.enter {
+    filter: brightness(1.3);
+  }
 }
-
-
 
 /*
 * Toggle Button
@@ -59,14 +102,11 @@ a {
   content: attr(data-close);
 }
 
-
-
-@media screen and (min-width: $md-break-point){
+@media screen and (min-width: $md-break-point) {
   .toggle-button {
     display: none;
   }
 }
-
 
 /*
 * Header
@@ -79,8 +119,6 @@ a {
   top: 0;
   border-bottom: 1px solid #ddd;
 }
-
-
 
 /*
 * Header Navigation
@@ -99,7 +137,7 @@ a {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Nanum Gothic', "Roboto Condensed", sans-serif;
   padding: 0 1rem;
   text-transform: uppercase;
   a {
@@ -118,8 +156,6 @@ a {
   }
 }
 
-
-
 /*
 * Logotypes
 * ========================================================================== */
@@ -137,8 +173,6 @@ a {
     font-weight: bold;
   }
 }
-
-
 
 /*
 * Aside
@@ -170,7 +204,9 @@ a {
     position: relative;
     margin-right: 5px;
     text-decoration: none;
-    &:hover { text-decoration: underline; }
+    &:hover {
+      text-decoration: underline;
+    }
     &:not(:last-child):after {
       content: " , ";
       position: absolute;
@@ -184,8 +220,6 @@ a {
   width: 100%;
   height: 100vh;
 }
-
-
 
 /*
 * Article
@@ -224,35 +258,38 @@ article {
     clear: both;
   }
 
-  h1 { margin-top: 0; }
+  h1 {
+    margin-top: 0;
+  }
 
   img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 1em auto;
-    padding: .2em;
+    padding: 0.2em;
     background-color: #fff;
   }
 }
 
 .post-meta {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
   text-transform: uppercase;
   color: #b9b9b9;
   font-size: 70%;
   font-weight: bold;
-  font-family: 'Roboto Condensed', sans-serif;
-  a, a:hover, a:focus, a:visited {
+  font-family: 'Nanum Gothic', "Roboto Condensed", sans-serif;
+  a,
+  a:hover,
+  a:focus,
+  a:visited {
     color: #333;
   }
 
   .meta-black {
     color: #333;
   }
-
 }
-
 
 /*
 * Archive
@@ -261,21 +298,21 @@ article {
   padding: 0;
   list-style: none;
   text-transform: uppercase;
-  font-size: 13px
+  font-size: 13px;
 }
 
 .year li {
   padding: 5px;
   padding: 8px 10px;
-  border-bottom: 1px dotted #eae4da
+  border-bottom: 1px dotted #eae4da;
 }
 
 .year a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .year a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .date {
@@ -284,8 +321,6 @@ article {
   color: #d4d4d4;
   display: none;
 }
-
-
 
 /*
 * Footer
@@ -300,8 +335,6 @@ article {
   line-height: 1.5em;
 }
 
-
-
 /*
 * Next/Previous Posts
 * ========================================================================== */
@@ -315,11 +348,14 @@ article {
   outline: none;
   text-align: center;
   border: 1px solid #ddd;
-  transition: border-color .5s ease-in 0s;
-  &:hover { border-color: #0D243B; }
+  transition: border-color 0.5s ease-in 0s;
+  &:hover {
+    border-color: #0d243b;
+  }
 
-  &__prev, &__next {
-    font-size: .8em;
+  &__prev,
+  &__next {
+    font-size: 0.8em;
     color: #333;
     margin: 10px 0;
   }

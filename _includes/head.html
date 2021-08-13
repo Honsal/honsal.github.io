@@ -30,6 +30,10 @@
 
   <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Roboto+Condensed:700&subset=latin' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet"> 
 
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
@@ -50,15 +54,8 @@
     <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
   {% endif %}
 
-  <script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.6.0.js"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function() { 
-      $("a[href^=http]").each(function(){ 
-        if(this.href.indexOf(location.hostname) == -1) { 
-          $(this).attr({ target: "_blank" });
-        } 
-      })
-    });
-  </script>
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/open-external.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/footnote-balloon.js"></script>
 </head>
