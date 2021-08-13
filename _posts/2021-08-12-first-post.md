@@ -1,10 +1,12 @@
 ---
+bg: "posts/20210812/20210723_050751.jpg"
 layout: post
 title: "지킬로 이주! 그리고 적어보는 인생사"
 date: 2021-08-12 16:53:50 +09:00
 categories: "Dailylife"
 tags: ["Dailylife"]
 summary: 기구한 인생
+author: Honsal
 ---
 
 [블로그스팟 블로그](//honsal.blogspot.com)에서 이주했습니다.

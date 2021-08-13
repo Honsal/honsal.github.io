@@ -1,5 +1,5 @@
 ---
-bg: "owl.jpg"
+bg: "2017_2048.png"
 layout: page
 title: "About"
 crawlertitle: "혼살"
