@@ -1,4 +1,4 @@
-I"#=<h3 id="각주">각주</h3>
+I"�?<h3 id="각주">각주</h3>
 
 <p>저는 아주 어렸을 때부터 신기술이라면 발광을 하며 쫓아다니는 타입이었습니다. 성인이 된지 한참 지난 지금에서야 그게 독이 될 때도 있다는 것을 깨닫고 있지만 그 때는 그런 건 제 알 바가 아니었죠.</p>
 
@@ -133,15 +133,26 @@
 <p>테마마다 적용 방식이 다를 수 있습니다. 제 경우에는 보이저 테마를 사용하고 있으므로 다음과 같이 적용했습니다.</p>
 
 <ol>
-  <li>Javascript/SCSS 파일을 각각 /assets/js, /assets/_sass 폴더에 생성</li>
-  <li>/assets/css/main.scss에서 footnote-ballooon 을 임포트</li>
-  <li>/_includes/head.html에서 footnote-balloon.js를 로드<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></li>
+  <li>Javascript/SCSS 파일을 각각 <em>/assets/js</em>, <em>/assets/_sass</em> 폴더에 생성</li>
+  <li><em>/assets/css/main.scss</em>에서 <em>footnote-ballooon</em> 을 임포트</li>
+  <li><em>/_includes/head.html</em>에서 <em>footnote-balloon.js</em>를 로드<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></li>
+  <li>끝!</li>
 </ol>
+
+<p>JS도 CSS도 별로 복잡하지 않기 때문에 어떤 테마에서든지 간편히 적용하시면 될 것 같습니다.</p>
+
+<h4 id="다운로드">다운로드</h4>
+
+<p>다운로드는 제 <a href="https://github.com/honsal/honsal.github.io">블로그 깃헙 리포지토리</a>에서 하시면 됩니다. <em>assets</em> 폴더 하위에 있습니다.</p>
+
+<h2 id="마치며">마치며</h2>
+
+<p>이제 슬슬 위에서 언급한 문제를 해결해야겠네요. 뷰포트를 넘어갈 때 뷰포트 안에 항상 머물게 만들어야겠습니다.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>현재 블로거 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>현재 <a href="https://www.blogger.com/">블로거</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
       <p>&lt;script type=”text/javascript” src=”/assets/js/footnote-balloon.js”&gt;&lt;/script&gt; <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>

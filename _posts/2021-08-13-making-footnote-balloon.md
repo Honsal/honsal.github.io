@@ -1,16 +1,15 @@
 ---
+bg: "posts/20210813/FOOTNOTE.png"
 layout: post
 title: "지킬용 말풍선 각주 플러그인 제작"
 crawlertitle: "Jekyll용 footote balloon 제작"
 date: 2021-08-13 11:02:37 +09:00
 categories: "Dailylife"
 tags: ["Dailylife"]
-summary: 기구한 인생
+summary: 나무위키?
 author: Honsal
 comments: true
 ---
-
-### 각주
 
 저는 아주 어렸을 때부터 신기술이라면 발광을 하며 쫓아다니는 타입이었습니다. 성인이 된지 한참 지난 지금에서야 그게 독이 될 때도 있다는 것을 깨닫고 있지만 그 때는 그런 건 제 알 바가 아니었죠.
 

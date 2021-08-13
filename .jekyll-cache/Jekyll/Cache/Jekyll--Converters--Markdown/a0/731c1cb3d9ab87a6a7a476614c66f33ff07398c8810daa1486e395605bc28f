@@ -1,6 +1,4 @@
-I"�?<h3 id="각주">각주</h3>
-
-<p>저는 아주 어렸을 때부터 신기술이라면 발광을 하며 쫓아다니는 타입이었습니다. 성인이 된지 한참 지난 지금에서야 그게 독이 될 때도 있다는 것을 깨닫고 있지만 그 때는 그런 건 제 알 바가 아니었죠.</p>
+I"�?<p>저는 아주 어렸을 때부터 신기술이라면 발광을 하며 쫓아다니는 타입이었습니다. 성인이 된지 한참 지난 지금에서야 그게 독이 될 때도 있다는 것을 깨닫고 있지만 그 때는 그런 건 제 알 바가 아니었죠.</p>
 
 <p>첫 블로그를 텍스트큐브로 시작할 때도 마찬가지였습니다. 마침 블로그를 시작하기 위해 플랫폼을 선택할 때 참고한 블로그에서 말풍선 각주 기능을 사용하고 있었기에, 저도 이걸 적용했었죠.</p>
 
@@ -152,7 +150,7 @@
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>현재 블로거 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>현재 <a href="https://www.blogger.com/">블로거</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
       <p>&lt;script type=”text/javascript” src=”/assets/js/footnote-balloon.js”&gt;&lt;/script&gt; <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
