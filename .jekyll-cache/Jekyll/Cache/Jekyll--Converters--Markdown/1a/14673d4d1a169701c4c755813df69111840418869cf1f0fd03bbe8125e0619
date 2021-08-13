@@ -1,0 +1,38 @@
+I"�<p>주로 Administrator 계정으로 활동하는 저는 거의 잊다시피 한 팁이었으나, 예전 블로그에서 가져올만한 글이 없나 보다가 이 팁을 포스팅했던 흔적을 발견해 이 블로그로 옮깁니다.</p>
+
+<h2 id="사용자-계정-컨트롤-보안-알림">사용자 계정 컨트롤 보안 알림</h2>
+
+<p><img src="/assets/images/posts/20210813/SecurityAlert.png" alt="사용자 계정 컨트롤 보안 알림" /></p>
+
+<p>관리자 권한이 필요한 프로그램을 실행하려 할 때 혹은 관리자 권한이 필요한 작업<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>을 하려 할 때마다 이러한 알림이 뜬다면 매우 귀찮은 일이 아닐 수 없습니다.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<p>그리고 당연히, 이러한 기능을 사용하지 않는 방법이 있습니다.</p>
+
+<h3 id="사용자-계정-컨트롤-설정-변경">사용자 계정 컨트롤 설정 변경</h3>
+
+<p>우선 제어판에 들어가주세요. 윈도우 10의 경우 <strong>작업 표시줄의 시작 메뉴를 우클릭</strong>하면 메뉴가 쪼로록 나오는데, 여기서 제어판을 클릭하시면 됩니다.</p>
+
+<p>다른 방법으로는 모든 NT기반 윈도우 OS 공통으로, 실행 창을 열어<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> <code class="language-plaintext highlighter-rouge">control</code>을 입력한 뒤 엔터를 쳐 제어판에 접근할 수 있습니다.</p>
+
+<blockquote>
+  <p>주의</p>
+
+  <p>제어판과 윈도우 10의 설정(모던 앱)은 다릅니다!</p>
+
+  <p>제어판을 열어야 합니다.</p>
+</blockquote>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>제어판의 특정 설정 변경 등 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>물론 대다수 사용자에게는 보안 측면에서 굉장히 유용할 수 있습니다. 어쨌든 저 알림으로 인해 자기가 무엇을 실행하려 하는지 한 번은 더 보게 되니까요. 만약 이 글을 보는 당신이 프로그램을 설치할 때 체크박스따위는 신경쓰지 않고 <strong>다음 다음 다음</strong>을 연타한 뒤 <strong>내 컴퓨터엔 왜 자꾸 악성코드가 깔릴까?</strong> 내지 <strong>왜 맨날 내 컴퓨터는 느려지지?</strong> 하는 타입이라면 이 글에서 소개하는 방법은 적용하지 길 바랍니다. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>시작 - 실행(Win 8 이전), 시작 메뉴 우클릭 - 실행(Win 8 이후), Win키 + R(모든 NT 및 95/98 공용) <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

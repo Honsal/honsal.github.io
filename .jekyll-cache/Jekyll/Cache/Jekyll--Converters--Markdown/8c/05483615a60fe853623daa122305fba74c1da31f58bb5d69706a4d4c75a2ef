@@ -1,5 +1,4 @@
-I"�
-
+I"�
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -125,6 +124,36 @@
         <li>
           
             <a href="/musics/TalesWeaverOST/">테일즈위버 OST 전곡 모음</a>
+            <span class="date">13-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="windows tips">Windows tips</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/windows%20tips/diable-uac-gt-win10/">Windows 10에서 사용자 계정 컨트롤 보안 알림 해제하기</a>
+            <span class="date">13-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="security">Security</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/windows%20tips/diable-uac-gt-win10/">Windows 10에서 사용자 계정 컨트롤 보안 알림 해제하기</a>
             <span class="date">13-08-2021</span>
           
         </li>

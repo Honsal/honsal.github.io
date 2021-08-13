@@ -25,9 +25,11 @@ $(document).ready(function() {
 
                 dialogFootnote.addClass('fn');
 
-                let liText = liPair.text();
+                let liText = liPair.html();
 
-                dialogFootnote.text(liText.substring(0, liText.length - 2));
+                dialogFootnote.html(liText);
+
+                $(dialogFootnote).find('a.reversefootnote').remove();
 
                 $('body').append(dialogFootnote);
 
