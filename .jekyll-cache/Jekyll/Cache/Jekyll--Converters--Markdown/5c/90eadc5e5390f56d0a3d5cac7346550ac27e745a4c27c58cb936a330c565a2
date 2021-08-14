@@ -1,7 +1,16 @@
-I"�
+I"�
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/dailylife/holy-moly/">부끄러운 과거</a>
+            <span class="date">13-08-2021</span>
+          
+        </li>
+      
     
       
         <li>
@@ -65,6 +74,15 @@
 <h2 class="category-key" id="development">Development</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/development/wsl/wsl2-network-problem/">WSL2 ping은 먹는데 인터넷은 안 된다?</a>
+            <span class="date">14-08-2021</span>
+          
+        </li>
+      
     
       
         <li>
@@ -138,6 +156,15 @@
       
         <li>
           
+            <a href="/windows%20tips/disable-all-firewalls-gt-win10/">Windows의 방화벽 해제. 하지만 모든 프로필을 곁들인</a>
+            <span class="date">13-08-2021</span>
+          
+        </li>
+      
+    
+      
+        <li>
+          
             <a href="/windows%20tips/diable-uac-gt-win10/">Windows 10에서 사용자 계정 컨트롤 보안 알림 해제하기</a>
             <span class="date">13-08-2021</span>
           
@@ -153,8 +180,47 @@
       
         <li>
           
+            <a href="/windows%20tips/disable-all-firewalls-gt-win10/">Windows의 방화벽 해제. 하지만 모든 프로필을 곁들인</a>
+            <span class="date">13-08-2021</span>
+          
+        </li>
+      
+    
+      
+        <li>
+          
             <a href="/windows%20tips/diable-uac-gt-win10/">Windows 10에서 사용자 계정 컨트롤 보안 알림 해제하기</a>
             <span class="date">13-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="firewall">Firewall</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/windows%20tips/disable-all-firewalls-gt-win10/">Windows의 방화벽 해제. 하지만 모든 프로필을 곁들인</a>
+            <span class="date">13-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="wsl">Wsl</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/development/wsl/wsl2-network-problem/">WSL2 ping은 먹는데 인터넷은 안 된다?</a>
+            <span class="date">14-08-2021</span>
           
         </li>
       
