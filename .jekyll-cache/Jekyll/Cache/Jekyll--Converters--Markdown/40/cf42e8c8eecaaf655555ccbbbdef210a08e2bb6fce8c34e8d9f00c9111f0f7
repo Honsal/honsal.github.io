@@ -1,0 +1,10 @@
+I"�<p>윈도우 11로 넘어오면서 이제 pwsh이나 cmd보다 윈도우 터미널<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>을 더 자주 사용하게 되었습니다. 하지만 비주얼이 조금 아쉬웠습니다. 파워쉘은 반투명하게 처리할 수가 있었는데 터미널은 옵션에서 아무리 찾아도 그런 설정이 보이지 않았기 때문입니다.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>단축 명령어: wt <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

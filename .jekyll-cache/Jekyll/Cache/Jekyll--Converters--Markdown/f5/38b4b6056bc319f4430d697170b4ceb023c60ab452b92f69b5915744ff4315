@@ -1,4 +1,4 @@
-I"�
+I""
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -156,6 +156,15 @@
       
         <li>
           
+            <a href="/windows%20tips/AcryllicTerminal/">윈도우 터미널에서 투명한 배경을 사용하는 방법</a>
+            <span class="date">14-08-2021</span>
+          
+        </li>
+      
+    
+      
+        <li>
+          
             <a href="/windows%20tips/disable-all-firewalls-gt-win10/">Windows의 방화벽 해제. 하지만 모든 프로필을 곁들인</a>
             <span class="date">13-08-2021</span>
           
@@ -220,6 +229,21 @@
         <li>
           
             <a href="/development/wsl/wsl2-network-problem/">WSL2 ping은 먹는데 인터넷은 안 된다?</a>
+            <span class="date">14-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="windows terminal">Windows terminal</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/windows%20tips/AcryllicTerminal/">윈도우 터미널에서 투명한 배경을 사용하는 방법</a>
             <span class="date">14-08-2021</span>
           
         </li>
