@@ -1,7 +1,7 @@
 ---
 sitemap:
     priority: 1.0
-    changefreq: weekly
+    changefreq: daily
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -14,7 +14,7 @@ sitemap:
     {% else %}
       <lastmod>{{ post.lastmod | date: "%Y-%m-%d" }}</lastmod>
     {% endif %}
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   {% endfor %}
@@ -23,7 +23,7 @@ sitemap:
     {% if page.sitemap != null and page.sitemap != empty %}
     <url>
       <loc>{{ site.url }}{{ page.url }}</loc>
-      <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+      <changefreq>{{ page.sitemap.daily }}</changefreq>
       <priority>{{ page.sitemap.priority }}</priority>
     </url>
     {% endif %}
