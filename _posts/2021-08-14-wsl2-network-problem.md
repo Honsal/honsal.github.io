@@ -5,7 +5,7 @@ author: Honsal
 date: 2021-08-14 10:16:05 +09:00
 categories: ["Development", "WSL"]
 tags: ["WSL", "Development"]
-comment: true
+comments: true
 ---
 
 WSL2가 나온 직후부터 저를 계속해서 괴롭혀오던 문제가 있습니다. 바로 Hyper-V에서 새 가상 스위치를 추가하는 시점부터 WSL이 제대로 작동하지 않는다는 것이죠.

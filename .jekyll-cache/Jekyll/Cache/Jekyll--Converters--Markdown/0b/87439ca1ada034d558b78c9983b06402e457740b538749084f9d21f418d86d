@@ -1,4 +1,4 @@
-I""
+I"�
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -213,6 +213,15 @@
       
         <li>
           
+            <a href="/wsl/development/WSL-Firewall/">WSL2 방화벽 문제?</a>
+            <span class="date">17-08-2021</span>
+          
+        </li>
+      
+    
+      
+        <li>
+          
             <a href="/windows%20tips/disable-all-firewalls-gt-win10/">Windows의 방화벽 해제. 하지만 모든 프로필을 곁들인</a>
             <span class="date">13-08-2021</span>
           
@@ -224,6 +233,15 @@
 <h2 class="category-key" id="wsl">Wsl</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/wsl/development/WSL-Firewall/">WSL2 방화벽 문제?</a>
+            <span class="date">17-08-2021</span>
+          
+        </li>
+      
     
       
         <li>
