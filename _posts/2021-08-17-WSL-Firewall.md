@@ -6,6 +6,7 @@ categories: ["WSL", "Development"]
 tags: ["WSL", "Firewall"]
 comments: true
 author: Honsal
+date: 2021-08-17 21:48:56 +09:00
 ---
 
 제가 [이전 포스트](/development/wsl/wsl2-network-problem/)에서 작성한 방법대로 잘 써먹던 중, 어느 순간부터 다시 WSL2에서 인터넷이 안 되기 시작했습니다. 여전히 핑은 됐고 여타 포트들로 통신도 되지만 80포트, 443포트 등 필수 포트에 연결이 안 되는 증상이었죠.
