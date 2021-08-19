@@ -45,3 +45,7 @@ disqus_shortname: honsal-github-io
 
 comments:
   provider: disqus
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
