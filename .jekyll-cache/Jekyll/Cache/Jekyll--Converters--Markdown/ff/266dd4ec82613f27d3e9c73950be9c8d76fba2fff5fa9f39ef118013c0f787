@@ -1,4 +1,4 @@
-I"$
+I"�
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -74,6 +74,15 @@
 <h2 class="category-key" id="development">Development</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/development/resharper/ReSharper-VS2022-Is-Out/">Visual Studio 2022용 ReSharper 프리뷰 빌드가 출시되었습니다.</a>
+            <span class="date">23-08-2021</span>
+          
+        </li>
+      
     
       
         <li>
@@ -293,6 +302,36 @@
           
             <a href="/computing%20tips/Gmail-Notification/">Gmail 데스크톱 알림 사용 설정하기</a>
             <span class="date">18-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="resharper">Resharper</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/development/resharper/ReSharper-VS2022-Is-Out/">Visual Studio 2022용 ReSharper 프리뷰 빌드가 출시되었습니다.</a>
+            <span class="date">23-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="preview">Preview</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/development/resharper/ReSharper-VS2022-Is-Out/">Visual Studio 2022용 ReSharper 프리뷰 빌드가 출시되었습니다.</a>
+            <span class="date">23-08-2021</span>
           
         </li>
       
