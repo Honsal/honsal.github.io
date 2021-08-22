@@ -158,7 +158,7 @@ generateResolvConf <span class="o">=</span> <span class="nb">false</span>
       <p>건드린다고 해도 아콘 NIC의 메트릭을 최상위로 올리는 정도였죠. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:5" role="doc-endnote">
-      <p>이것 떄문에 된 게 아닌가 하고 생각하실 수도 있지만, 당연히 이전에 다양한 조합으로 어마무시하게 많이 시도했던 명령들입니다. 모두 의미가 없었고요. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>이것 때문에 된 게 아닌가 하고 생각하실 수도 있지만, 당연히 이전에 다양한 조합으로 어마무시하게 많이 시도했던 명령들입니다. 모두 의미가 없었고요. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:6" role="doc-endnote">
       <p>VPN의 가상 어댑터든 물리적 어댑터든 상관없습니다. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>

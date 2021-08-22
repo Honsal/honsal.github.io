@@ -1,4 +1,4 @@
-I"�
+I"�!
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -331,6 +331,51 @@
         <li>
           
             <a href="/development/resharper/ReSharper-VS2022-Is-Out/">Visual Studio 2022용 ReSharper 프리뷰 빌드가 출시되었습니다.</a>
+            <span class="date">23-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="c#">C#</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/c%23/development/Using-Net-Core-In-CSharp-Interactive/">C# 인터렉티브에서 .NET Core 사용하기</a>
+            <span class="date">23-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="developments">Developments</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/c%23/development/Using-Net-Core-In-CSharp-Interactive/">C# 인터렉티브에서 .NET Core 사용하기</a>
+            <span class="date">23-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="c# tips">C# tips</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/c%23/development/Using-Net-Core-In-CSharp-Interactive/">C# 인터렉티브에서 .NET Core 사용하기</a>
             <span class="date">23-08-2021</span>
           
         </li>
