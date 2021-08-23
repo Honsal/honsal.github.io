@@ -1,0 +1,33 @@
+I"�<p>개발을 하다보면 생각보다 자주 <code class="language-plaintext highlighter-rouge">System.Random</code> 클래스를 사용하게 됩니다.</p>
+
+<p>닷넷의 랜덤 클래스에는 미리 정의된 <code class="language-plaintext highlighter-rouge">Random.Next(int, int)</code>라는, 최솟값과 최댓갑 사이의 값을 반환해주는 좋은 기능이 있죠. 예전에 루아를 사용할 때엔 이게 없어서 직접 <code class="language-plaintext highlighter-rouge">n * (max - min) + min</code>과 같은 식을 함수로 만들어서 썼었는데 정말 고마운 프레임워크입니다.</p>
+
+<h3 id="maxvalue">maxValue</h3>
+
+<p>오늘도 어김없이 개발을 하던 도중, GitLab에 이슈가 올라왔습니다. 최소 설정값과 최대 설정값 사이의 랜덤한 값으로 작업이 반복되어야 하는 로직이 있는데, 이게 작동을 안 한다는 것이었죠. 해당 부분의 코드는 제가 만든 것이 아니기 때문에 디버그를 하며 어디가 문제인지 찾아봤습니다.</p>
+
+<p>그러다가 찾은 다음 코드.</p>
+
+<div class="language-cs highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="kt">int</span> <span class="n">RandomValue</span> 
+<span class="p">{</span>
+    <span class="k">get</span> 
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">m_rnd</span><span class="p">.</span><span class="nf">Next</span><span class="p">(</span><span class="n">COND_MIN</span><span class="p">,</span> <span class="n">COND_MAX</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>아… 설마? 하고 브레이크포인트를 걸어봤습니다. 아니나 다를까, COND_MAX 값에 사용자가 입력한 값이 그대로 들어가있더군요.</p>
+
+<p>예를 들어, 사용자가 최소 설정값을 1, 최대 설정값을 2로 지정했다면 COND_MIN = 1, COND_MAX = 2가 되는 식이었습니다.</p>
+
+<p>그렇다면 이게 뭐가 문제일까요? 얼핏 보면 minValue, maxValue라는 인자명을 생각해보면 당연히 해당 코드가 1 또는 2를 반환하리라 생각됩니다. 하지만, <strong>그게 바로 함정</strong>입니다.</p>
+
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/system.random?view=net-5.0">MSDN의 Random 클래스</a> 문서를 보면, 다음과 같은 내용이 있습니다.</p>
+
+<blockquote>
+  <p>A 32-bit signed integer <strong>greater than or equal to minValue and less than maxValue</strong>; that is, the range of return values includes minValue but not maxValue. If minValue equals maxValue, minValue is returned.</p>
+</blockquote>
+
+<p>번역해보면, <em>minValue <strong>이상</strong> maxValue <strong>미만</strong>의 부호 있는 32비트 정수 값을 반환</em>한다는 것이죠. 중요한 건 <em>maxValue <strong>미만</strong></em>이라는 겁니다.</p>
+:ET

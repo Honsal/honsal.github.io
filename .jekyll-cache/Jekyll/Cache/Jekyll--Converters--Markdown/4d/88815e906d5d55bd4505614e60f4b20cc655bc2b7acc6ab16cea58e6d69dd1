@@ -1,4 +1,4 @@
-I"�!
+I"�#
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -74,6 +74,15 @@
 <h2 class="category-key" id="development">Development</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/c%23/development/DotNet-Random-Next-Int-Int/">닷넷 Random.Next(minValue, maxValue) 사용시 주의사항</a>
+            <span class="date">23-08-2021</span>
+          
+        </li>
+      
     
       
         <li>
@@ -341,6 +350,15 @@
 <h2 class="category-key" id="c#">C#</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/c%23/development/DotNet-Random-Next-Int-Int/">닷넷 Random.Next(minValue, maxValue) 사용시 주의사항</a>
+            <span class="date">23-08-2021</span>
+          
+        </li>
+      
     
       
         <li>
