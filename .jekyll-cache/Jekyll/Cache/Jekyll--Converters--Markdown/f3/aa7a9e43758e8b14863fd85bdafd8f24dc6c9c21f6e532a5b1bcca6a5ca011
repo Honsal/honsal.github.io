@@ -1,4 +1,4 @@
-I"�#
+I"?&
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -74,6 +74,15 @@
 <h2 class="category-key" id="development">Development</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/development/.net/a-descriptor-for-page-was-not-found/">.NET 6 프리뷰, 'A descriptor for a page was not found.' 문제 해결 방법</a>
+            <span class="date">01-09-2021</span>
+          
+        </li>
+      
     
       
         <li>
@@ -395,6 +404,21 @@
           
             <a href="/c%23/development/Using-Net-Core-In-CSharp-Interactive/">C# 인터렉티브에서 .NET Core 사용하기</a>
             <span class="date">23-08-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id=".net">.net</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/development/.net/a-descriptor-for-page-was-not-found/">.NET 6 프리뷰, 'A descriptor for a page was not found.' 문제 해결 방법</a>
+            <span class="date">01-09-2021</span>
           
         </li>
       
