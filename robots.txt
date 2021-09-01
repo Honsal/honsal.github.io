@@ -1,4 +1,4 @@
- User-agent: *
- Allow: /
+User-agent: *
+Allow: /
  
- Sitemap: https://honsal.github.io/sitemap.xml
+Sitemap: https://honsal.github.io/sitemap.xml
