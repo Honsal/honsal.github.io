@@ -1,4 +1,4 @@
-I"?&
+I"�(
 <h2 class="category-key" id="dailylife">Dailylife</h2>
 
 <ul class="year">
@@ -179,6 +179,15 @@
 <h2 class="category-key" id="windows tips">Windows tips</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/windows%20tips/ctrl-alt-f9-korean-ime-problem/">Ctrl+Alt+F9가 전자/반자 전환을, Ctrl+Alt+F10이 가상 키보드를 띄우는 문제</a>
+            <span class="date">06-09-2021</span>
+          
+        </li>
+      
     
       
         <li>
@@ -419,6 +428,21 @@
           
             <a href="/development/.net/a-descriptor-for-page-was-not-found/">.NET 6 프리뷰, 'A descriptor for a page was not found.' 문제 해결 방법</a>
             <span class="date">01-09-2021</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="windows bugs">Windows bugs</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/windows%20tips/ctrl-alt-f9-korean-ime-problem/">Ctrl+Alt+F9가 전자/반자 전환을, Ctrl+Alt+F10이 가상 키보드를 띄우는 문제</a>
+            <span class="date">06-09-2021</span>
           
         </li>
       
